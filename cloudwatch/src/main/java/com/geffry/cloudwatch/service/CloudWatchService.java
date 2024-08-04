@@ -26,7 +26,7 @@ public class CloudWatchService {
 
     public void logMessageToCloudWatch(String message) {
 
-        List<InputLogEvent> logEvents = new ArrayList<InputLogEvent>();
+        List<InputLogEvent> logEvents = new ArrayList<>();
         InputLogEvent log = new InputLogEvent();
         Calendar calendar = Calendar.getInstance();
 
